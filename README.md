@@ -15,7 +15,7 @@ This project is built using Node.js to create a README markdown files in a more 
 
 ## Video
 
-![Readme generator screenshot.](./assets/readme-generator.mp4)
+Video link [Video](https://github.com/hkhalfan1979/readme-generator/blob/main/assets/readme-generator.mp4)
 
 ## Gif
 

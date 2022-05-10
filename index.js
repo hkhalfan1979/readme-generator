@@ -26,23 +26,29 @@ inquirer.prompt([
         message: "What usage does this project have?"
     },
     {
-        type: "checkbox",
-        message: "Select your prject license?",
-        name: "license",
-        choices: [            
-            "Apache",
-            "MIT",
-            "LGPL",
-            "BSD3",
-            "None",
-        ],
-    },
+        type: "input",
+        name: "contribution",
+        message: "How can someone contribute to this project?",
+     },
+    {
+        type: 'list',
+        message: 'Select project license:',
+        name: 'license',
+        choices: [
+          { value: 'Apache' },   //Apache 2.0 License
+          { value: 'BSD3' },  //BSD 3-Clause License
+          { value: 'LGPL' },  //GNU LGPL v3
+          { value: 'MIT' },  //The MIT License
+          { value: 'MPL' }, //Mozilla Public License 2.0
+          { value: 'None' }, 
+        ]
+     },
     {
         type: "input",
         name: "dependencies",
         message: "What command should be run to install the dependencies?",
         default: 'npm i',
-    },
+    },    
     {
         type: "input",
         name: "test",
@@ -68,8 +74,8 @@ inquirer.prompt([
      })
 
 
-// Initialize
+// Initialize Aplpication
 function init() { }
 
-// call app
+// call the application
 init();

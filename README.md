@@ -1,4 +1,3 @@
-# readme-generator
 
 ## Acceptance Criteria
 

@@ -11,7 +11,15 @@ This project is built using Node.js to create a README markdown files in a more 
 
 ## Screenshot
 
-![Readme generator screenshot.](./images/readme-generator-screenshot.png)
+![Readme generator screenshot.](./assets/readme-generator-screenshot.png)
+
+## Video
+
+![Readme generator screenshot.](./assets/readme-generator.mp4)
+
+## Gif
+
+![Readme generator screenshot.](./assets/readme-generator.gif)
 
 
 ## User story 

@@ -1,3 +1,33 @@
+# README Generator
+
+Node.JS: Professional README Generator
+
+
+## Description
+
+```md
+This project is built using Node.js to create a README markdown files in a more efficient way by asking a user a questions regarding the project. When the questions are answered a readmefile with the title is generated. 
+```
+
+## Screenshot
+
+![Readme generator screenshot.](./images/readme-generator-screenshot.png)
+
+
+## User story 
+```md
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
+```
+
+## Installation and Run
+```md
+npm init
+npm install inquirer
+npm i
+node index.js
+```
 
 ## Acceptance Criteria
 
